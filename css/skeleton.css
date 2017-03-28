@@ -31,67 +31,68 @@
   .one.column,
   .one.columns  { width: 4.6%;
   }
-  .two.columns     { width: 13.3%;
+  .two.columns     { width: 13%;
   }
-  .three.columns    { width: 22%;            }
-  .four.columns  { width: 30.6%; }
-  .five.columns     { width: 39.3%; }
-  .six.columns   { width: 48%;            }
-  .seven.columns    { width: 56.6%; }
-  .eight.columns  { width: 65.3%; }
-  .nine.columns       { width: 74.0%;}
-  .ten.columns { width: 82.6%; }
-  .eleven.columns  { width: 91.3%; }
+  .three.columns    { width: 22%;
+  }
+  .four.columns  { width: 30%; }
+  .five.columns     { width: 39%; }
+  .six.columns   { width: 48%;}
+  .seven.columns    { width: 56%; }
+  .eight.columns  { width: 65%; }
+  .nine.columns       { width: 74%;}
+  .ten.columns { width: 82%; }
+  .eleven.columns  { width: 91%; }
   .twelve.columns  { width: 100%; margin-left: 0; }
 
-  .one-third.column   { width: 30.6%; }
-  .two-thirds.column  { width: 65.3%; }
+  .one-third.column   { width: 30%; }
+  .two-thirds.column  { width: 65%; }
 
   .one-half.column   { width: 48%; }
 
   .offset-by-one.column,
-  .offset-by-one.columns    { margin-left: 8.6%;
+  .offset-by-one.columns    { margin-left: 9%;
   }
   .offset-by-two.column,
-  .offset-by-two.columns   { margin-left: 17.3%;
+  .offset-by-two.columns   { margin-left: 17%;
   }
   .offset-by-three.column,
   .offset-by-three.columns { margin-left: 26%; 
   }
   .offset-by-four.column,
-  .offset-by-four.columns { margin-left: 34.6%;
+  .offset-by-four.columns { margin-left: 34%;
   }
   .offset-by-five.column,
-  .offset-by-five.columns  { margin-left: 43.3%;
+  .offset-by-five.columns  { margin-left: 43%;
   }
   .offset-by-six.column,
   .offset-by-six.columns     { margin-left: 52%; 
   }
   .offset-by-seven.column,
-  .offset-by-seven.columns   { margin-left: 60.6%;
+  .offset-by-seven.columns   { margin-left: 60%;
   }
   .offset-by-eight.column,
-  .offset-by-eight.columns { margin-left: 69.3%; 
+  .offset-by-eight.columns { margin-left: 69%; 
     
   }
   .offset-by-nine.column,
-  .offset-by-nine.columns { margin-left: 78.0%;
+  .offset-by-nine.columns { margin-left: 78%;
   }
   .offset-by-ten.column,
-  .offset-by-ten.columns   { margin-left: 86.6%; 
+  .offset-by-ten.columns   { margin-left: 86%; 
     
   }
   .offset-by-eleven.column,
-  .offset-by-eleven.columns  { margin-left: 95.3%; 
+  .offset-by-eleven.columns  { margin-left: 95%; 
     
   }
 
   .offset-by-one-third.column,
-  .offset-by-one-third.columns{ margin-left: 34.6%; 
+  .offset-by-one-third.columns{ margin-left: 35%; 
     
   }
   .offset-by-two-thirds.column,
-  .offset-by-two-thirds.columns { margin-left: 69.3%; 
+  .offset-by-two-thirds.columns { margin-left: 70%; 
     
   }
 
@@ -102,10 +103,10 @@
 }
 
 html {
-  font-size: 62.5%; }
+  font-size: 63%; }
 body {
   font-size: 1.5em; 
-  line-height: 1.6;
+  line-height: 1.5;
   font-weight: 400;
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222; }
@@ -114,18 +115,20 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 2rem;
   font-weight: 300; }
-h1 { font-size: 4.0rem; line-height: 1.2;  letter-spacing: -.1rem;
+h1 { font-size: 4.0rem; line-height: 1.3;
   
 }
-h2 { font-size: 3.6rem; line-height: 1.2; letter-spacing: -.1rem;
+h2 
+{ font-size: 4rem; line-height: 1.3;
 }
-h3 { font-size: 3.0rem; line-height: 1.3;  letter-spacing: -.1rem;
+h3
+{ font-size: 3rem; line-height: 1.3;
 }
-h4 { font-size: 2.4rem; line-height: 1.3; letter-spacing: -.07rem;
+h4 { font-size: 2.5rem; line-height: 1.3;
 }
-h5 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem;
+h5 { font-size: 1.8rem; line-height: 1.5; 
 }
-h6 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; 
+h6 { font-size: 1.5rem; line-height: 1.6;
   
 }
 
@@ -164,7 +167,7 @@ input[type="button"] {
   padding: 0 30px;
   color: #555;
   text-align: center;
-  font-size: 11px;
+  font-size: 15px;
   font-weight: 600;
   line-height: 40px;
   letter-spacing: .1rem;
@@ -220,7 +223,7 @@ input[type="url"],
 input[type="password"],
 textarea,
 select {
-  height: 38px;
+  height: 40px;
   padding: 5px 10px;
   background-color: #fff;
   border: 1px solid #D1D1D1;
@@ -291,20 +294,20 @@ li {
 code {
   padding: .2rem .5rem;
   margin: 0 .2rem;
-  font-size: 85%;
+  font-size: 90%;
   white-space: nowrap;
   background: #F1F1F1;
   border: 1px solid #E1E1E1;
-  border-radius: 4px; }
+  border-radius: 5px; }
 pre > code {
   display: block;
-  padding: 1rem 1.5rem;
+  padding: 1.2rem 1.5rem;
   white-space: pre; }
 
 
 th,
 td {
-  padding: 12px 15px;
+  padding: 15px 17px;
   text-align: left;
   border-bottom: 1px solid #E1E1E1; }
 th:first-child,
@@ -334,7 +337,7 @@ ol,form {
   margin-bottom: 2.5rem;
   }
 
-.u-full-width {
+.f-width{
   width: 100%;
   box-sizing: border-box; 
   
@@ -356,7 +359,7 @@ ol,form {
   display: table;
   clear: both; }
 hr {
-  margin-top: 3rem;
+  margin-top: 5rem;
   margin-bottom: 4rem;
   border-width: 0;
   border-top: 1px solid #E1E1E1; 

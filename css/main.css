@@ -1,7 +1,6 @@
 html {
   font-size: 62.5%; }
 
-/**************************************/
 .owl-nav {
   display: none; }
 
@@ -82,15 +81,14 @@ header .pc_menu {
     .toggle .sp_menu_toggle {
       display: none; } }
 
-/**************************************/
 .wh_bg_box {
   background-color: white;
   padding: 15px;
   margin-bottom: 10px; }
   .wh_bg_box h3 {
     color: #887f69;
-    font-size: 16px;
-    font-size: 1.6rem;
+    font-size: 18px;
+    font-size: 1.7rem;
     font-weight: bold;
     margin: 0 0 10px 0; }
   .wh_bg_box h4 {
@@ -104,7 +102,6 @@ header .pc_menu {
     font-size: 1.2rem;
     margin: 0 0 5px 0; }
 
-/**************************************/
 #maincontents #eyecatch .owl-dots {
   position: relative;
   top: 0; }
@@ -140,8 +137,8 @@ header .pc_menu {
     background-color: white;
     padding: 10px 10px 18px 10px; }
   #maincontents .pro_box .pro_title {
-    font-size: 11px;
-    font-size: 1.1rem;
+    font-size: 12px;
+    font-size: 1.4rem;
     padding-top: 10px; }
     #maincontents .pro_box .pro_title a {
       color: black;
@@ -276,7 +273,6 @@ header .pc_menu {
       width: 100%;
       float: none; } }
 
-/**************************************/
 footer .pagetop {
   text-align: center;
   padding: 20px 0; }
@@ -299,8 +295,6 @@ footer .copyright {
   padding-bottom: 40px;
   color: #b8b4ac; }
 
-/******************************/
-/******************************/
 #maincontents .breadcrumb {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -328,7 +322,7 @@ footer .copyright {
     display: none; }
   #maincontents .category_image {
     display: block;
-    margin-bottom: 6px; } }
+    margin-bottom: 7px; } }
 #maincontents .pro_list_all {
   display: flex;
   flex-wrap: wrap;
@@ -364,8 +358,8 @@ footer .copyright {
     width: 121px;
     padding: 10px 0;
     text-align: center;
-    font-size: 14px;
-    font-size: 1.4rem;
+    font-size: 15px;
+    font-size: 1.5rem;
     font-weight: bold;
     letter-spacing: 0.1rem; }
   #maincontents .list_pagenavi a:hover {
@@ -375,8 +369,6 @@ footer .copyright {
   #maincontents .list_pagenavi .next_btn {
     float: right; }
 
-/******************************/
-/******************************/
 .products_all {
   padding: 0; }
   .products_all #sidemenu, .products_all .pro_con_padding {
@@ -463,10 +455,10 @@ footer .copyright {
         padding: 0 0 2% 0; } }
 @media (min-width: 550px) {
   #maincontents .pro_imgs .eight.columns {
-    width: 70.333333%; }
+    width: 70.3%; }
   #maincontents .pro_imgs .four.columns {
     margin-left: 1.3%;
-    width: 28.366667%; } }
+    width: 28.3%; } }
 @media (min-width: 550px) {
   #maincontents #pro_info {
     border-bottom: 1px solid #e2ddd4; } }
@@ -571,8 +563,8 @@ footer .copyright {
     #maincontents .explain_info .exp_tbl th, #maincontents .explain_info .exp_tbl td {
       padding: 10px 10px;
       text-align: left;
-      font-size: 12px;
-      font-size: 1.2rem;
+      font-size: 14px;
+      font-size: 1.3rem;
       font-weight: normal;
       color: #887f69;
       border-bottom: 1px solid #e2ddd4;
@@ -580,5 +572,3 @@ footer .copyright {
     #maincontents .explain_info .exp_tbl th {
       background-color: #f9f9f5;
       text-align: center; }
-
-/*# sourceMappingURL=shopping.css.map */
